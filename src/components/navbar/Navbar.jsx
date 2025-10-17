@@ -1,10 +1,10 @@
-import "./navbar.css"
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
         <div className="navContainer">
-            <span className="logo">booknest</span>
+            <span className="logo">BookNest</span>
             <div className="navItems">
                 <button className="navButton">Register</button>
                 <button className="navButton">Login</button>
@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
