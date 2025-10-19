@@ -6,6 +6,8 @@ import {useLocation} from "react-router-dom";
 import { format } from "date-fns";
 import { DateRange } from "react-date-range";
 import SearchItem from "../../components/searchItem/SearchItem";
+import { useNavigate } from "react-router-dom";
+
 
 
 const List = () => {
@@ -18,11 +20,18 @@ const List = () => {
   }]);
   
   const [options, setOptions] = useState(location.state?.options || {
-    adult: 1,
-    children: 0,
-    room: 1,
+      adult: 1,
+      children: 0,
+      room: 1,
   });
-  const [openDate, setOpenDate] = useState(false);
+    const [openDate, setOpenDate] = useState(false);
+
+    const navigate = useNavigate(); 
+
+  const handleClick = () => {
+    navigate("/hotels/hotel");
+  };
+
 
   return (
     <div>
@@ -108,15 +117,15 @@ const List = () => {
           </div>
 
           <div className="listResult">
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
-                <SearchItem />
+                <SearchItem onClick={handleClick} />
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
+                <SearchItem onClick={() => handleClick()}/>
 
           </div>
           
