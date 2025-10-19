@@ -22,11 +22,18 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500; 
 }
+.navItems{
+    align-items: end;
+    display: flex;
+    gap:10px;
+    
+}
 
 .navButton{
-    margin-left: 20px;
+    background-color: #4296cd;
+    color: white;
+    font-weight:500;
     border: none;
-    padding: 5px 10px;
+    padding:10px;
     cursor: pointer;
-    color:#5F7F91;
 }
