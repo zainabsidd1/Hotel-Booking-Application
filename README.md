@@ -1,6 +1,6 @@
-# Hotel Booking Application (React)
+# Hotel Booking Application 
 
-A modern, responsive **hotel booking UI** built with **React** and **Vite**, inspired by travel platforms like Booking.com.  
+A modern, responsive **hotel booking UI** built with **React**, inspired by travel platforms like Booking.com.  
 The project focuses on front-end design, dynamic components, and state management using React hooks.
 
 🔗 **Live Demo:** [Hotel Booking Application](https://hotel-booking-application-eight.vercel.app)
