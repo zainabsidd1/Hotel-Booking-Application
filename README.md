@@ -11,11 +11,9 @@ The project focuses on front-end design, dynamic components, and state managemen
 
 ╰┈➤ **Home Page:** Browse hotel categories and featured destinations  
 
-╰┈➤ **Search Page:** Choose your destination, select dates, and filter options  
+╰┈➤ **Search Page:** Choose your destination, select dates using a React Calendar, and filter options  
 
 ╰┈➤ **Interactive Date Picker:** Uses `react-date-range` for intuitive date selection 
-
-╰┈➤ **Hotel List Page:** Displays hotels based on user search inputs (API to be implemented)
 
 ╰┈➤ **Hotel Details Page (Static):** Showcases design for a single property view  
 
@@ -25,3 +23,15 @@ The project focuses on front-end design, dynamic components, and state managemen
 
 > Note: This project focuses on **UI and front-end functionality** only.  
 > Some buttons and actions are placeholders for future backend integration.
+>
+
+---
+
+## 🎥 Demo Preview  
+
+Here’s a quick look at the UI in action:  
+
+<p align="center">
+  <img src="./assets/demo.gif" alt="Hotel Booking App Demo" width="700">
+</p>
+
