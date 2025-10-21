@@ -29,9 +29,19 @@ The project focuses on front-end design, dynamic components, and state managemen
 
 ## 🎥 Demo Preview  
 
+## 🏠 Home Page
+
 Here’s a quick look at the UI in action:  
 
 <p align="center">
   <img src="searchbar-ezgif.com-video-to-gif-converter.gif" alt="Hotel Booking App Demo" width="700">
 </p>
+> users can enter a destination, pick dates through an interactive calendar, and adjust guest and room counts.  
+> Built with **React state management**, **dynamic form inputs**, and **real-time UI updates** for an intuitive booking experience.
 
+### 🏨 Hotel Details Interaction
+<p align="center">
+  <img src="test-ezgif.com-video-to-gif-converter.gif" alt="Hotel Booking App Demo" width="700">
+</p>
+> Demonstrates the hotel selection and browsing experience — clicking a hotel card opens a detailed property view with an image carousel and structured layout.  
+> Highlights **component reusability**, **responsive design**, and a **modern, user-centric interface** inspired by platforms like Booking.com.
