@@ -32,6 +32,6 @@ The project focuses on front-end design, dynamic components, and state managemen
 Here’s a quick look at the UI in action:  
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Hotel Booking App Demo" width="700">
+  <img src="searchbar-ezgif.com-video-to-gif-converter.gif" alt="Hotel Booking App Demo" width="700">
 </p>
 
