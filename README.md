@@ -48,3 +48,5 @@ The project focuses on front-end design, dynamic components, and state managemen
 
 - Demonstrates the hotel selection and browsing experience — clicking a hotel card opens a detailed property view with an image carousel and structured layout.  
 - Highlights **component reusability**, **responsive design**, and a **modern, user-centric interface** inspired by platforms like Booking.com.
+
+  ---
